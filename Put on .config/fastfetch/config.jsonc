@@ -3,7 +3,7 @@
 
   "logo": {
     "type": "file",
-    "source": "/home/mint/Soviet-Linux-Configuration/logo.txt",
+    "source": "$HOME/Soviet-Linux-Configuration/logo.txt",
     "color": {
       "1": "red"
     }
