@@ -25,14 +25,14 @@ ORIG_ICONS="Put on .icons"
 
 
 
-rm -rf ~/.config/plank
-cp -r "$ORIG_CONFIG/plank" ~/.config
-
-
 rm -rf ~/.config/fastfetch
 cp -r "$ORIG_CONFIG/fastfetch" ~/.config
 
 
 mkdir -p ~/.icons
 cp -r "$ORIG_ICONS/kora-green" ~/.icons/
+
+echo "fastfetch" >> "$HOME/.bashrc"
+
+plank
 
